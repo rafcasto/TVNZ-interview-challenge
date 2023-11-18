@@ -17,7 +17,7 @@ pipeline {
                 // git 'https://github.com/your/repository.git'
 
                 // Build the Storybook Docker image
-                sh './mvnw install'
+                sh './mvnw clean install'
             }
         }
 
