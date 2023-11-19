@@ -30,7 +30,7 @@ pipeline {
                 }
             }
             steps {
-                sh './mvnw test -Dcucumber.filter.tags=@overseas'
+                sh "./mvnw verify -Dcucumber.filter.tags='@overseas'"
 
             }
         }
