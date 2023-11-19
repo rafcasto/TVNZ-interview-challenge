@@ -13,7 +13,7 @@ Feature: Registration
       |agreeTermsAndConditions|agreeToReceiveUpdates|
       | true                     |                  |
     When I sign up to TVNZ
-    Then I am unable to register
+    Then I see the following error message "Please enter a password."
 
   @TEST-002
   Scenario: User is un able to signup when EMAIL is left blank
@@ -29,7 +29,7 @@ Feature: Registration
       |agreeTermsAndConditions|agreeToReceiveUpdates|
       | true                     |                  |
     When I sign up to TVNZ
-    Then I see the following error message ""
+    Then I see the following error message "We need your email address to sign you up."
 
 
   @TEST-002
@@ -46,4 +46,5 @@ Feature: Registration
     |agreeTermsAndConditions|agreeToReceiveUpdates|
     | true                     |                  |
     When I sign up to TVNZ
-    Then I am unable to register
+    Then I see the following error message "Please enter your first name."
+
