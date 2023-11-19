@@ -95,6 +95,10 @@ Delve into the factors influencing your choice of tools for the mobile automatio
 
 **Version Control**: in-house versioning control, i would also review the branching strategy depending on the maturity of the team i would suggest git flow or mono branch, git flow if the team is less experience in DevOps and mono branching strategy if the team is mature, the CI/CD pipeline is as good as the branching strategy.
 
+### High level Framework Components diagram 
+
+![img_6.png](img_6.png)
+
 ## Task 2: Automation Test Development
 ### Test Data Management
 
